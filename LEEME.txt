@@ -1,0 +1,17 @@
+AUTOCLICK PARA WINDOWS
+
+Abre "Abrir Autoclick.vbs" con doble clic.
+
+- Intervalo inicial: un clic izquierdo cada segundo.
+- Puedes cambiar el intervalo (0,10 a 3600 segundos), el boton y la espera inicial.
+- Iniciar o F8: empieza una cuenta regresiva de 3 segundos para ubicar el mouse.
+- Al terminar la cuenta, deja el mouse quieto. El primer clic llega tras el intervalo.
+- Cualquier cambio detectado en la posicion del cursor detiene el autoclick.
+- F8 tambien detiene durante la cuenta regresiva o mientras esta activo.
+- Para volver a activarlo, presiona F8 o Iniciar.
+- Cerrar la ventana termina el programa.
+
+El movimiento se comprueba aproximadamente cada 20 ms; Windows puede retrasar
+los clics si el equipo esta ocupado. No se reactiva solo despues de detenerse.
+No necesita instalar paquetes ni permisos de administrador.
+Las aplicaciones ejecutadas como administrador pueden rechazar los clics.
